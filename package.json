@@ -1,0 +1,30 @@
+{
+	"name": "@nicolasflamel/blake2b",
+	"version": "0.0.1",
+	"description": "NPM package for parts of the official BLAKE2b implementation",
+	"main": "./index.js",
+	"files": [
+		"*",
+		"!main.cpp",
+		"!tests.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NicolasFlamel1/BLAKE2b-NPM-Package.git"
+	},
+	"keywords": [
+		"BLAKE2b"
+	],
+	"author": "Nicolas Flamel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NicolasFlamel1/BLAKE2b-NPM-Package/issues"
+	},
+	"dependencies": {
+		"@nicolasflamel/blake2b-wasm": "^0.0.1"
+	},
+	"optionalDependencies": {
+		"@nicolasflamel/blake2b-native": "^0.0.1",
+		"@nicolasflamel/blake2b-react": "^0.0.1"
+	}
+}
