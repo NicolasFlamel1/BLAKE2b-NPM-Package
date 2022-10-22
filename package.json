@@ -24,7 +24,7 @@
 		"@nicolasflamel/blake2b-wasm": "^0.0.1"
 	},
 	"optionalDependencies": {
-		"@nicolasflamel/blake2b-native": "^0.0.1",
+		"@nicolasflamel/blake2b-native": "^0.0.3",
 		"@nicolasflamel/blake2b-react": "^0.0.1"
 	}
 }
